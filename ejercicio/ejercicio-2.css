@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+
+
+
+.contenedor {
+    width: 31em;
+    height: 10em;
+    margin: 1px;
+    padding: 0.5em;
+    border: 1px solid;
+    background-color: ghostwhite;
+    position: relative;
+    top: 5em;
+    left: 25em;
+}
+
+button {
+
+    background-color: rgb(7, 123, 248);
+    color : white;
+    border-radius: 5% ;
+    border: 1px solid blue;
+    position: relative;
+    top: 5%;
+    width: 35em;
+    text-align: left;
+}
