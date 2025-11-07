@@ -1,0 +1,33 @@
+
+
+#contenedor {
+    width: 90%;
+    height: 30vh;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    border: 1px solid rgb(28, 28, 190);
+    color: rgb(0, 0, 0);
+
+}
+
+#contenedor > div {
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+    float: center;
+
+    position: relative;
+    top: -5px;
+    left: 250px;
+}
+
+#contenedor > div > div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position:  relative;
+    top: 50%;
+    left: 50%;  
+    
+}
